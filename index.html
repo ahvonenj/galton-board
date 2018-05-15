@@ -22,10 +22,6 @@
 			<input type="button" value="Recalculate" id ="recalc" onclick="CalculateDelegate()"/>
 		</div>
 		
-
-
-
-
 		<script>
 			var _LAYERS = 17;
 			var _BALLS = 3000;
@@ -38,7 +34,6 @@
 					document.getElementById('balls').value
 				)
 			}
-			
 
 			function Calculate(recalculate, layers, balls)
 			{
@@ -58,13 +53,9 @@
 						var r = Math.random();
 
 						if(r >= 0.5)
-						{
 							result++;
-						}
 						else
-						{
 							result--;
-						}
 
 						if(result < 0)
 						{
